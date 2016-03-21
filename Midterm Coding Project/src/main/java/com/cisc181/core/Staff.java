@@ -19,9 +19,21 @@ public class Staff extends Employee {
 	        return this.Title;
 	    }
 
-    
-
-    
+    /**
+     * 
+     * @param FirstName
+     * @param MiddleName
+     * @param LastName
+     * @param DOB
+     * @param Address
+     * @param Phone_number
+     * @param Email
+     * @param officeHours
+     * @param rank
+     * @param salary
+     * @param hireDate
+     * @param Title
+     */
 	public Staff(String FirstName, String MiddleName, String LastName,
 			Date DOB, String Address, String Phone_number, String Email,
 			String officeHours, int rank, double salary, Date hireDate,

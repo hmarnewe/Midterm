@@ -10,6 +10,13 @@ public class Section extends Course {
 	private UUID SectionID;
 	private int RoomID;
 
+	/**
+	 * 
+	 * @param courseID
+	 * @param semesterID
+	 * @param sectionID
+	 * @param roomID
+	 */
 	public Section(UUID courseID, UUID semesterID, UUID sectionID, int roomID) {
 		super();
 		CourseID = courseID;
@@ -22,6 +29,10 @@ public class Section extends Course {
 		return SemesterID;
 	}
 
+	/**
+	 * setSemesterID - setter for semesterID
+	 * @param semesterID
+	 */
 	public void setSemesterID(UUID semesterID) {
 		SemesterID = semesterID;
 	}
@@ -30,6 +41,10 @@ public class Section extends Course {
 		return SectionID;
 	}
 
+	/**
+	 * setSectionID - setter for sectionID
+	 * @param sectionID
+	 */
 	public void setSectionID(UUID sectionID) {
 		SectionID = sectionID;
 	}
@@ -38,6 +53,10 @@ public class Section extends Course {
 		return RoomID;
 	}
 
+	/**
+	 * setRoomID - setter for roomID
+	 * @param roomID
+	 */
 	public void setRoomID(int roomID) {
 		RoomID = roomID;
 	}
@@ -46,6 +65,10 @@ public class Section extends Course {
 		return CourseID;
 	}
 	
+	/**
+	 * setCourseID - setter for courseID
+	 * @param 
+	 */
 	public void setCourseID(UUID courseID) {
 		CourseID = courseID;
 	

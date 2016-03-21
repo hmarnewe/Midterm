@@ -8,6 +8,12 @@ public class Semester {
 	private Date StartDate;
 	private Date EndDate;
 
+	/**
+	 * 
+	 * @param semesterID
+	 * @param startDate
+	 * @param endDate
+	 */
 	public Semester(UUID semesterID, Date startDate, Date endDate) {
 		super();
 		SemesterID = semesterID;
@@ -19,6 +25,10 @@ public class Semester {
 		return SemesterID;
 	}
 
+	/**
+	 * setSemesterID - setter for semesterID
+	 * @param semesterID
+	 */
 	public void setSemesterID(UUID semesterID) {
 		SemesterID = semesterID;
 	}
@@ -27,6 +37,10 @@ public class Semester {
 		return StartDate;
 	}
 
+	/**
+	 * setStartDate - setter for startDate
+	 * @param startDate
+	 */
 	public void setStartDate(Date startDate) {
 		StartDate = startDate;
 	}
@@ -35,6 +49,10 @@ public class Semester {
 		return EndDate;
 	}
 
+	/**
+	 * setEndDate - setter for endDate
+	 * @param endDate
+	 */
 	public void setEndDate(Date endDate) {
 		EndDate = endDate;
 	}

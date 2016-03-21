@@ -16,6 +16,10 @@ public class Student extends Person {
 		return this.eMajor;
 	}
 
+	/**
+	 * seteMajor - setter for eMajor
+	 * @param eMajor
+	 */
 	public void seteMajor(eMajor eMajor) {
 		this.eMajor = eMajor;
 	}
@@ -24,10 +28,26 @@ public class Student extends Person {
 		return this.StudentID;
 	}
 
+	/**
+	 * setStudentID - setter for studentID
+	 * @param studentID
+	 */
 	public void setStudentID(UUID studentID) {
 		StudentID = studentID;
 	}
 
+	/**
+	 * 
+	 * @param FirstName
+	 * @param MiddleName
+	 * @param LastName
+	 * @param DOB
+	 * @param eMajor
+	 * @param Address
+	 * @param Phone_number
+	 * @param Email
+	 * @throws PersonException
+	 */
 	public Student(String FirstName, String MiddleName, String LastName, Date DOB, eMajor eMajor, String Address,
 			String Phone_number, String Email) throws PersonException {
 		super(FirstName, MiddleName, LastName, DOB, Address, Phone_number, Email);
